@@ -1,0 +1,4 @@
+policy "ShowAdminButton"
+permit action == "ShowAdminButton"
+where
+	subject == "Admin";

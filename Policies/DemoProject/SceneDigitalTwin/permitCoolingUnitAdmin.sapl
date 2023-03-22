@@ -1,0 +1,5 @@
+policy "permitCoolingUnitAdmin"
+permit 
+    action == "MoveToCoolingUnit"
+where
+    subject == "Admin";

@@ -1,0 +1,9 @@
+policy "EmergencyStopOperator"
+permit action == "EmergencyStop"
+where
+	subject == "Operator";
+advice
+{
+	"constraintType": "Logging:OnExecution",
+	"message": "Printer Emergency Stop."
+}

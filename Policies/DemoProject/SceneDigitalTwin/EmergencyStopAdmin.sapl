@@ -1,0 +1,4 @@
+policy "EmergencyStopAdmin"
+permit action == "EmergencyStop"
+where
+	subject == "Admin";

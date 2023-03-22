@@ -1,0 +1,5 @@
+policy "permitMoveToCatAdmin"
+permit 
+    action == "MoveToCat"
+where
+    subject == "Admin";

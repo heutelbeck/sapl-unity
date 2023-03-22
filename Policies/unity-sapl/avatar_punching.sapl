@@ -1,0 +1,10 @@
+policy "Punching"
+permit 
+    action == "Punch"
+where
+    subject == "ANNA";
+obligation {
+                "method" : "Log",
+                "parameterType" : "string",
+                "parameterValue" : "Obligation for punching successfully raised."
+           }

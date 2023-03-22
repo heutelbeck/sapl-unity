@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>csharp.sapl.constraint</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Dlls\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\constraint-api\constraint-api.csproj" />
+    <ProjectReference Include="..\pdp-api\pdp-api.csproj" />
+  </ItemGroup>
+ 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="rem Copy the project's .dll to unity-sapl-demo project&#xD;&#xA;robocopy &quot;$(ProjectDir)/../Dlls/netstandard2.1&quot; &quot;$(ProjectDir)/../../unity-sapl-demo/Assets/C#Sapl&quot; $(ProjectName).dll&#xD;&#xA;&#xD;&#xA;rem Copy the project's .dll to unity-sapl-package&#xD;&#xA;robocopy &quot;$(ProjectDir)/../Dlls/netstandard2.1&quot; &quot;$(ProjectDir)/../../unity-sapl-package/Runtime/$(ProjectName)&quot; $(ProjectName).dll&#xD;&#xA;&#xD;&#xA;rem Exit code handling for robocopy&#xD;&#xA;if %25errorlevel%25 leq 1 exit 0 else exit %25errorlevel%25" />
+  </Target>
+
+</Project>

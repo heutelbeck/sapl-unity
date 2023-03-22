@@ -1,0 +1,5 @@
+policy "EnableButtonShowInfo"
+permit
+	action == "EnableButtonShowInfo"
+where
+	(subject == "Admin") || (subject == "Operator");

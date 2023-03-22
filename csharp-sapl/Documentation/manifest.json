@@ -1,0 +1,497 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/GitHub/fapra-ws2022-sapl-unity/csharp-sapl/document-builder",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.IAuthorizationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.IAuthorizationProvider.html",
+          "hash": "aR4N3Z4p2wtSxDjARxQzwO4XENp6lwixT8e7BYe4xZ4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.IAuthorizationPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.IAuthorizationPublisher.html",
+          "hash": "0SfuUX2d0Bfy2+U/X2WVHTpPVNXtkrf+93ii4r3i19k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.INotifyDecisionChanged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.INotifyDecisionChanged.html",
+          "hash": "MeFPktib/ux5QK71drrHUuQ7iJ36tpuPXq4GhumE5s4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ISignal.Signal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ISignal.Signal.html",
+          "hash": "Knywx/e/9k2gL/Xz0po0fRuTbNCC5R+xUHACQSUgflc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ISignal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ISignal.html",
+          "hash": "abGdD1klRJlzqRUluAftW536fCahTmHq6LYbDLi2Sj8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.MultiAuthorizationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.MultiAuthorizationProvider.html",
+          "hash": "WiqmOvv8QLmA5fHx1zkJwN4VhZYdzppmiFvheU5qJS0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamDisconnectEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamDisconnectEventArgs.html",
+          "hash": "8/olFU4bX0ygy4nnDsnY3fwsttq3BEOBWmdupoLoI/U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamMessageEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamMessageEventArgs.html",
+          "hash": "lz/oA3Dz2M/OjGGOQOttLPhOvGok1rrCYUxdOXUBfss="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.DisconnectEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.DisconnectEventHandler.html",
+          "hash": "zgnNClTsrE5mNPFa44709Ivv7oFRmyAqV0C5mXNJIXc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.MessageReceivedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.MessageReceivedHandler.html",
+          "hash": "U7JeLxtnWO/6EAIxHLSDmSBl8GYQAZk7ROF346dhe4g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.EventStreamReader.html",
+          "hash": "c09Oq1OZYw4MUmE0sa+QOKD0oc4wkJTziRsvvYJ7Q/g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.ServerEventHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.ServerEventHandling.html",
+          "hash": "S+iHmhxxmgbKR3I1eoqlqXfrSeX4AnwFsmOWN0Mv5rY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.Unsubscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.Unsubscriber.html",
+          "hash": "i+4U5lpIGnxop5YNSy1jv6hJ2nkWK3JD8PO7omc/pec="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IBoolFunctionConstraintHandlerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IBoolFunctionConstraintHandlerProvider.html",
+          "hash": "pQPV4NIIXBlXde3lL9+Sheqh+gSKbAuv/ExHpAVnTvY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IConsumerConstraintHandlerProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IConsumerConstraintHandlerProvider-1.html",
+          "hash": "65dhBK8dSD+Yo7YMKlOYvXEOz3T37uHiszBV07pxqrI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IErrorHandlerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IErrorHandlerProvider.html",
+          "hash": "Nf7sRzlUwP4tT+4yZMl4DHhra2vDpG5DU/GfyFMoHR8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IHasPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IHasPriority.html",
+          "hash": "TJZtMfCj1MVcZAIM7MGSgiCzQBiTVraISlg6Tz8y2jY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IResponsible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IResponsible.html",
+          "hash": "p6NBG06256QeQo2E/KE3EIbtfUx1svYM7rDME0YWBkM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.IRunnableConstraintHandlerProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.IRunnableConstraintHandlerProvider.html",
+          "hash": "cw0CgosK8iGpkVKUKHV29k0ol2uHl7u5kYNiVweHjow="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.ITypeSupport-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.ITypeSupport-1.html",
+          "hash": "Yewk9Boif9O8UbcJyXZLITvqxy6U06oXmFZ6avgivjY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.api.html",
+          "hash": "Cvei0zovProYUG6f+e/QwadAmjbhsxoXiEl1tLVFuW8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.constraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.constraint.html",
+          "hash": "74XzWLIkle+Gx/1aMxX3u5cd6Wk5GUdpYD4LIY4fzM0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationDecision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationDecision.html",
+          "hash": "6Xz60ML3+6QC7snPlgBM6i/cf51z8VYDABwG+jtd1aY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationDecisionUnknownException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationDecisionUnknownException.html",
+          "hash": "53Znu46pKj+Btsn0V3ShTaEYZ6ePAsbAGONMsiomLqU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationProvider.html",
+          "hash": "Puhk/PZht7tT+ujk49fpM+isq2e0bb/LU2p9dmZwZmo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationPublisher.html",
+          "hash": "KSV++a/cIe763kFHJck+DDdVu/b/KMuswlugM3VOiDg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationSubscription.html",
+          "hash": "+GsQjNz9BnD1y/N3AamXKzrdWvqZHfGprevX4nYRUJU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.AuthorizationSubscriptionElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.AuthorizationSubscriptionElements.html",
+          "hash": "rWb8sP0UtuumncMNMvPfEzbMlo1MaqPIyz6SWATNDAU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.Decision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.Decision.html",
+          "hash": "b3j3XVpbY6I39ztSoaMY/Ch/C5x4FWbEMBJohvZ6+ag="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.IManagePDPConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.IManagePDPConnection.html",
+          "hash": "VjaXfXiL9+cthnA2RUlKjoH4hkubFqVxB1sVsIFCM1U="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.IPolicyDecisionPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.IPolicyDecisionPoint.html",
+          "hash": "8GUxqoctwnDIxBNnqta7jATxmiLWLxCtvlKqfCLGmwo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.IdentifiableAuthorizationDecision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.IdentifiableAuthorizationDecision.html",
+          "hash": "zh7TsUC83shLX2wPaTCXsM+XqjQI+ektfkIVhvoQJdc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.IdentifiableAuthorizationSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.IdentifiableAuthorizationSubscription.html",
+          "hash": "mH2sO4fPMj+pqX7pfqijsyHrI8V93TpJExVEJOU/lqQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationDecision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationDecision.html",
+          "hash": "cc5+I3HP1aPldWOU961ol7If1xm7TjUtq4vwAavlTX8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationPublisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationPublisher.html",
+          "hash": "DcQHnpxtBBT2sgaVxfsaMRDP7QzAPtPfaizEwCwMH+4="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationSubscription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.MultiAuthorizationSubscription.html",
+          "hash": "DXfh5+Oks3Zg3y7u6fxZjCWMId4X+mn70iwxm1WYtMc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.RemotePolicyDecisionPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.RemotePolicyDecisionPoint.html",
+          "hash": "sbTHpGCLyboSGciNK8gUz1V61ya5DKDvSDJdCHq3lOo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.Unsubscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.Unsubscriber.html",
+          "hash": "S4wUHMIGD/Bct+EaO//Z5w4xmH/SABIWtqnndL/cSNM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.api.html",
+          "hash": "O038HSdAvP5dE8gfMDxAGPsEjw5uZdrq+bSW37Qz2Xc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.remote.SaplClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.remote.SaplClient.html",
+          "hash": "Sphn/VU5sOBBMrjKnJF6eXQxrMrLUC2wC0Tx679l1hM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/csharp.sapl.pdp.remote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/csharp.sapl.pdp.remote.html",
+          "hash": "yuWSEVqaxmjuU+qdCHrhJuF3gRte4sv3DNTWDCvtk2g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "SWikHmOTqYVTmHmpDf0jn9jOrIGOpHr8sanwx46WbAs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "wHkibXAVvamUq0CkljWfs4pbFstzHLwBVNtNTWIVK/k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "dbPe/UhJGrOj+RsLWQAhWaDC3tscV7CMkfhhe09Sj3Y="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

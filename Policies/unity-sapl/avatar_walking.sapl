@@ -1,0 +1,10 @@
+policy "Walking"
+permit 
+    action == "Walk"
+where
+    subject == "ANNA";
+obligation {
+                "method" : "Log",
+                "parameterType" : "string",
+                "parameterValue" : "Obligation for walking successfully raised."
+           }

@@ -1,0 +1,4 @@
+policy "permitProcessingStationId"
+permit action == "ShowId"
+where
+	subject == "Operator";

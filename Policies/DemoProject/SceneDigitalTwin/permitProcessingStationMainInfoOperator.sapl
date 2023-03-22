@@ -1,0 +1,12 @@
+policy "permitProcessingStationMainInfoOperator"
+permit action == "ShowInfo"
+where
+	subject == "Operator";
+obligation
+{
+	"constraintType": "ShowMessageBox"
+}
+obligation
+{
+	"constraintType": "BlackenName"
+}

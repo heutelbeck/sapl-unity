@@ -1,0 +1,35 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: saplCsharp
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 2.x
+    - name: Restore dependencies
+      run: dotnet restore csharp-sapl/sapl.sln
+    - name: Build
+      run: dotnet build csharp-sapl/sapl.sln --no-restore
+    - name: Test
+      run: dotnet test csharp-sapl/sapl.sln --no-build --verbosity normal
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ github.token }}
+        repository: ${{ github.repository }}
+        retain_days: 1
+        keep_minimum_runs: 6

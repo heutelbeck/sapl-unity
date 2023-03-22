@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 07215c11d03e16e478fd0fe41923cd0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - processingStationBehaviour: {instanceID: 0}
+  - objectGrabPointTransform: {instanceID: 0}
+  - playerCameraTransform: {instanceID: 0}
+  - positionForNaturalCoolingUnit: {instanceID: 0}
+  - positionForBuildUnit: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

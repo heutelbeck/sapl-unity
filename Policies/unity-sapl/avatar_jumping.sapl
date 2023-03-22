@@ -1,0 +1,10 @@
+policy "Jumping"
+permit 
+    action == "Jump"
+where
+    subject == "ANNA";
+obligation {
+                "method" : "Log",
+                "parameterType" : "string",
+                "parameterValue" : "Obligation for jumping successfully raised."
+           }

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>docfx</id>
+    <version>2.62.1</version>
+    <authors>Microsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/dotnet/docfx</projectUrl>
+    <description>The docfx command line tool published as .NET tool</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/dotnet/docfx" commit="8252e5b5b783250e3fad377976ae3f7af677dd8f" />
+  </metadata>
+</package>

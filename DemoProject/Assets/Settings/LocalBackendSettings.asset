@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55d6c469f57166e428af19c58a590611, type: 3}
+  m_Name: LocalBackendSettings
+  m_EditorClassIdentifier: 
+  protocol: 0
+  host: localhost
+  port: 8080
+  user: 
+  password: 
+  apiProcessingStations: /api/processingstations
+  apiPrintJobs: /api/subscriptions/printjobsummary
+  apiOctoprintProgress: /api/subscriptions/machine
+  apiProductionsPlan: /api/production-plans
+  apiOctoprintTemperature: /api/subscriptions/machine
+  apiPrintjobController: /api/printjobs
+  apiOctoprintStateClient: /api/subscriptions/machine
+  apiAnomaly: /api/subscriptions/machine
+  apiAnomalyOperation: /api/machines
