@@ -5,9 +5,9 @@
   "description": "This package contains SAPL for Unity.",
   "unity": "2021.3",
   "unityRelease": "11f1",
-  "documentationUrl": "https://sapl.io/documentation",
-  "changelogUrl": "https://sapl.io/documentation/changelog.html",
-  "licensesUrl": "https://sapl.io/documentation/licensing.html",
+  "documentationUrl": "https://github.com/heutelbeck/sapl-unity",
+  "changelogUrl": "https://github.com/heutelbeck/sapl-unity",
+  "licensesUrl": "https://sapl.io/",
   "keywords": [
     "SAPL",
     "security"
