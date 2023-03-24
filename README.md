@@ -9,7 +9,7 @@ Sapl for Unity uses the [Lightweight Sapl Server](https://github.com/heutelbeck/
 You can add Sapl for Unity to your project via the Unity Package Manager.
 Choose "Add Pagacke from git URL..." and add https://github.com/heutelbeck/sapl-unity.git?path=/unity-sapl-package
 
-![image info](https://github.com/heutelbeck/sapl-unity/blob/main/unity-sapl/docfx/images/AddPackageFromGitURL.png)
+![image info](https://github.com/heutelbeck/sapl-unity/unity-sapl/docfx/images/AddPackageFromGitURL.png)
 
 ![image info](https://github.com/heutelbeck/sapl-unity/blob/main/unity-sapl/docfx/images/PackageManagerSaplUnity.png)
 
